@@ -3,7 +3,7 @@ import { UilSearch } from '@iconscout/react-unicons';
 
 const Navbar = () => {
   return (
-    <div className='nav-wrapper  '>
+    <div className='nav-wrapper'>
       <div className="nav-container flex justify-between items-center h-20 py-4 px-12 font-suisse text-sm font-medium line  ">
 
         {/* left side */}
@@ -21,7 +21,6 @@ const Navbar = () => {
             <li>Facial Appointment</li>
             <UilSearch size={20} className='text-gray-600' />
             
-
           </ul>
         </div>
 

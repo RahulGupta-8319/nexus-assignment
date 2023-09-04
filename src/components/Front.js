@@ -6,9 +6,9 @@ const Front = () => {
         <div className='front-wrapper '>
             <div className="relative">
                 <img
-                    src="/images/front.avif"
+                    src="/images/frontPage.avif"
                     alt="Front Page"
-                    className="w-full h-auto"
+                    className="w-full h-screen"
                 />
                 <div className="absolute top-0 left-0 w-full h-full text-white pt-20 pl-10 flex ">
                     <div className="front-text-2 font-suisse font-normal text-base  ">
@@ -25,11 +25,10 @@ const Front = () => {
                         </p>
                         <div class="button-con pt-[5%] ">
 
-                        <div className='flex  items-center justify-between border border-solid border-gray-300 p-4 w-[60%] hover:bg-white hover:text-gray-700 '>
-                            <div class="font font-bold">Discover Bar Soaps</div>
-                            <UilArrowRight   size={25} />
-
-                        </div>
+                            <div className='flex  items-center justify-between border border-solid border-gray-300 p-4 w-[60%] hover:bg-white hover:text-gray-700 '>
+                                <div class="font font-bold">Discover Bar Soaps</div>
+                                <UilArrowRight size={25} />
+                            </div>
                         </div>
 
                     </div>
