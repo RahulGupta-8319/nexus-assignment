@@ -17,7 +17,7 @@ function App() {
     return (
         <div className='space-y-9 py-10'>
             {/* ======== heading ======= */}
-            <div class="about-products-left  w-[50%] space-y-6 font-suisse px-28 ">
+            <div class="about-products-left  lg:w-[50%] sm:w-[70%] w-[90%] space-y-6 font-suisse px-28 ">
                 <div class="small-heading font-semibold text-sm ">
                     <h3>Fragrance</h3>
                 </div>
@@ -29,7 +29,6 @@ function App() {
                 <div class="para">
                     <p>
                         Unorthodox, evocative, and refined, Aesop fragrances are sensory bridges to memory and connection points to those around us.
-
                     </p>
                 </div>
                 <div className='btn flex  items-center  w-[60%]  hover:scale-95 ease-in-out duration-200 '>

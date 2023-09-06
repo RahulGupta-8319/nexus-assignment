@@ -4,11 +4,11 @@ import { UilArrowRight } from '@iconscout/react-unicons'
 const Front = () => {
     return (
         <div className='front-wrapper '>
-            <div className="relative">
+            <div className="relative w-full">
                 <img
                     src="/images/frontPage.avif"
                     alt="Front Page"
-                    className="w-full h-screen"
+                    className="w-screen h-screen"
                 />
                 <div className="absolute top-0 left-0 w-full h-full text-white pt-20 pl-10 flex ">
                     <div className="front-text-2 font-suisse font-normal text-base  ">

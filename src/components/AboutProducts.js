@@ -6,7 +6,7 @@ const AboutProducts = ({ AboutProductsData }) => {
     let checkNum = AboutProductsData.id
 
     const imgDiv = (
-        <div class="about-products-right w-[55%]" >
+        <div class="about-products-right lg:w-[55%] w-full p-20  flex justify-center items-center" >
             <div class="img">
                 {console.log(AboutProductsData.image)
                 }
@@ -33,7 +33,7 @@ const AboutProducts = ({ AboutProductsData }) => {
     )
 
     const textDiv = (
-        <div class="about-products-left space-y-9 px-28 w-[45%] py-5 ">
+        <div class="about-products-left space-y-9 px-28 lg:w-[45%] w-full py-5 ">
             <div class="small-heading font-semibold text-sm ">
                 <h3>{AboutProductsData.smallHeading }</h3>
             </div>
@@ -58,12 +58,10 @@ const AboutProducts = ({ AboutProductsData }) => {
     return (
         // console.log("AboutProductsData", AboutProductsData)
         <div class="about-products-wrapper">
-            <div class="about-products-container py-28 font-suisse flex justify-between w-full">
+            <div class="about-products-container py-28 font-suisse flex flex-col lg:flex lg:flex-row justify-between w-full">
                 {/* ==== left side ===  */}
 
-                {
-                    console.log("checkNum", checkNum % 2 === 0 ?  'yes' : 'no')
-                }
+                {console.log("checkNum", checkNum % 2 === 0 ?  'yes' : 'no')}
 
                 {
                     checkNum % 2 === 0 ? (
